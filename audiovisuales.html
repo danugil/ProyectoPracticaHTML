@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link type="image/ico" sizes="16x16" rel="icon" href="icons8-gato-16.ico">
+    <title>El malhumorado PuppyCat</title>
+
+    <style>
+        body {
+            font-family: 'Comfortaa', sans-serif, "Lucida Console", "Courier New", monospace;
+            background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
+            padding: 0;
+            margin: 0;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #40a6c5;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #b88a8a;
+        }
+
+        .active {
+            background-color: #9d7594;
+        }
+
+        h1 {
+            background-color: #f6bec4;
+            padding: 10px;
+            margin: 0;
+            color: #000000;
+        }
+
+        div.gallery {
+            margin: 5px;
+            border: 1px solid #ccc;
+            float: left;
+            width: 32vw;
+            box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.15);
+        }
+
+        div.gallery:hover {
+            border: 1px solid #777;
+        }
+
+        div.gallery img {
+            width: 100%;
+            height: auto;
+        }
+
+        div.desc {
+            padding: 15px;
+            text-align: center;
+            background-color: #FFF;
+        }
+
+        .centrado {
+            display: flex;
+            justify-content: center;
+        }
+        .footer {
+            background-color: #40a6c5;
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+
+</head>
+
+<body>
+    
+    <header>
+        <h1>El malhumorado PuppyCat</h1>
+        <nav>
+           <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="relaciones.html">Relaciones</a></li>
+                <li><a class="active" href="audiovisuales.html">Audiovisuales</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+           </ul>
+        </nav>
+    </header>
+
+    <div class="centrado" style="margin-top: 2.5%; margin-bottom: 2.5%;">
+        <img src="assets/gif/PuppyCat.gif" alt="Gif de PuppyCat flotando" style="box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.15); border-radius: 10px;">
+    </div>
+
+    <section style="margin-bottom: 2.5%;">
+        <div class="gallery">
+            <a href="assets/img/PuppyCat4.jpg" target="_blank"><img src="assets/img/PuppyCat4.jpg" alt="PuppyCat con una expresión de enojo" width="500"></a>
+            <div class="desc">Bee and PuppyCat</div>
+        </div>
+
+        <div class="gallery">
+            <a href="assets/img/PuppyCat5.jpg" target="_blank"><img src="assets/img/PuppyCat5.jpg" alt="Bee y PuppyCat en uno de sus trabajos temporales" width="500"></a>
+            <div class="desc">Bee and PuppyCat</div>
+        </div>
+
+        <div class="gallery">
+            <a href="assets/img/PuppyCat6.jpg" target="_blank"><img src="assets/img/PuppyCat6.jpg" alt="PuppyCat y Sticky viendo televisión" width="500"></a>
+            <div class="desc">Bee and PuppyCat</div>
+        </div>
+    </section>
+
+    <iframe style="margin-top: 2.5%; margin-bottom: 2.5%; justify-content: center;" width="450" height="315" src="https://www.youtube.com/embed/o4MHsWOK7hQ?si=bGvAkjfp5nz3sgrM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <footer class="footer">
+        <p>Derechos reservados &copy; 2023</p>
+    </footer>
+
+
+</body>
+
+</html>

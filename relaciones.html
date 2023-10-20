@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link type="image/ico" sizes="16x16" rel="icon" href="icons8-gato-16.ico">
+    <title>El malhumorado PuppyCat</title>
+
+    <style>
+        body {
+            font-family: 'Comfortaa', sans-serif, "Lucida Console", "Courier New", monospace;
+            background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
+            padding: 0;
+            margin: 0;
+        }
+
+        .container{
+            display: flex;
+            justify-content: center;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        .nav {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #40a6c5;
+        }
+
+        .table {
+            float: none;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #b88a8a;
+        }
+
+        .active {
+            background-color: #9d7594;
+        }
+
+        h1 {
+            background-color: #f6bec4;
+            padding: 10px;
+            margin: 0;
+            color: #000000;
+        }
+
+        table {
+            border-collapse: collapse;
+            border: 2px solid #333;
+            letter-spacing: 1px;
+            font-size: 1.5rem;
+            background-color: #FFF;
+            box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.15);
+        }
+
+        td {
+            border: 1px solid rgb(190, 190, 190);
+            padding: 10px 20px;
+        }
+
+        th {
+            border: 1px solid rgb(190, 190, 190);
+            padding: 10px 20px;
+            background-color: #f6bec4;
+        }
+
+        .footer {
+            background-color: #40a6c5;
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+    
+</head>
+
+<body>
+    
+    <header>
+        <h1>El malhumorado PuppyCat</h1>
+        <nav>
+           <ul class="nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="relaciones.html">Relaciones</a></li>
+                <li><a href="audiovisuales.html">Audiovisuales</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+           </ul>
+        </nav>
+    </header>
+
+    <h2 style="margin: 15px;">Relaciones con los otros personajes</h2>
+
+    <hr>
+
+    <div class="container">
+        <table style="margin: 2.5%;">
+            <colgroup>
+                <col style="background-color: #9faecf;">
+                <col>
+                <col>
+            </colgroup>
+            <th>Personaje</th>
+            <th>Tipo de relación</th>
+            <th>Detalles</th>
+
+            <tr>
+                <td>Bee</td>
+                <td>Buena relación</td>
+                <td>
+                    <ul>
+                        <li class="table">Compañeros de cuarto.</li>
+                        <li class="table">Se preocupa por ella.</li>
+                        <li class="table">La ayudo a conseguir empleo.</li>
+                        <li class="table">Aprecia su amabilidad.</li>
+                    </ul>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Deckard</td>
+                <td>No le agrada</td>
+                <td>
+                    <ul>
+                        <li class="table">Fue el culplable de que despidieran a Bee.</li>
+                        <li class="table">Tienen pocas interacciones.</li>
+                    </ul>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Cardamon</td>
+                <td>No le agrada</td>
+                <td>
+                    <ul>
+                        <li class="table">Le disgusta que le toque la barriga.</li>
+                        <li class="table">Lo trata de emparejar con su perrito Sticky.</li>
+                    </ul>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Sticky</td>
+                <td>No le agrada</td>
+                <td>
+                    <ul>
+                        <li class="table">Le incomoda su presencia.</li>
+                    </ul>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Wallace</td>
+                <td>Buena relación</td>
+                <td>
+                    <ul>
+                        <li class="table">Lo conoce de antes.</li>
+                        <li class="table">Es el único animal que le importa.</li>
+                    </ul>
+                </td>
+            </tr>
+            
+            <tr>
+                <td>Temp-bot</td>
+                <td>Relación profesional</td>
+                <td>
+                    <ul>
+                        <li class="table">Se conocen desde hace tiempo.</li>
+                        <li class="table">Siempre los recibe con un saludo amable y cariñoso.</li>
+                    </ul>
+                </td>
+            </tr>
+
+        </table>
+    </div>
+
+
+    <footer class="footer">
+        <p>Derechos reservados &copy; 2023</p>
+    </footer>
+
+
+</body>
+
+</html>
